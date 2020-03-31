@@ -1,0 +1,14 @@
+
+h1{
+    margin: 1.66%;
+    font-family: Indie Flower ;
+    border-bottom: 5px solid #00ffff;
+    border-radius:0 10px 10px 0;
+    padding-bottom: 10px;
+    width: 30%;
+}
+img{
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+}
