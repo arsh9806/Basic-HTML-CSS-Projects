@@ -1,0 +1,57 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #232323;
+}
+.jumbotron{
+    font-family: "open sans";
+    font-size: 1.5rem;
+    line-height: 0.3;
+    text-align: center;
+    background-color: rgb(54, 133, 236);
+    padding: 0.25px 0%;
+    color: white;
+    transition: background 500ms;
+} 
+button{
+    border: none;
+    background: none;
+    padding: 5px;
+    color: rgb(54, 133, 236);
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: inherit;
+}
+button:hover{
+    background: rgb(54, 133, 236);
+    color: white;
+    transition: background 500ms;
+}
+
+.container{
+    max-width: 500px;
+    margin: 2% auto;
+}
+.square{
+    width: 30%;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    float: left;
+    background-color: white;
+    transition: background 500ms;
+    border-radius: 15%;
+}
+#message{
+    display: inline-block;
+    width: 30%;
+
+}
+.stripe{
+    background-color: white;
+    
+}
+.selected{
+    background: rgb(54, 133, 236);
+    color: white;
+    transition: background 500ms;
+}

@@ -1,0 +1,13 @@
+body{
+    font-family: Montserrat;
+}
+.jumbotron{
+    background: url(wall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: url(wall.jpg) center center / cover no-repeat; */
+    
+}
+h1{
+    font-family: 'Courier Prime';
+}
