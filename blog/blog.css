@@ -1,0 +1,35 @@
+*{
+    font-family: source sans pro;
+}
+body{
+    background-image: url(https://www.pebblepad.co.uk/cms/uploads/blog/posts/12deaca1-7d81-4dc3-b5ad-1a3ade57469f/Portfolio%20background.png.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.blog{
+    margin: auto;
+    width : 60%;
+    border : 30px solid #bdc3c7;
+    max-width: 700px;
+}
+.post{
+    line-height: 30px;
+    margin: 4%;
+    border-bottom:2px solid #bdc3c7;
+}
+.date{
+    color : #3498db;
+    letter-spacing: 0.2cm;
+
+}
+h1{
+    color: #2c3e50;
+    font-weight: 5em;
+}
+h1 + p{
+    line-height: 20px;
+    border-left: 5px solid #bdc3c7;
+    padding-left: 3px;
+}
