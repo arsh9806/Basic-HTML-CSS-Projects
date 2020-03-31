@@ -1,0 +1,70 @@
+#container{
+    width: 360px;
+    margin: 100px auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.fa.fa-pencil{
+float: right;
+}
+.completed{
+    color: grey;
+    text-decoration: line-through;
+}
+body{
+    background: rgb(2,0,36);
+    font-family: "Raleway";
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 30%, rgba(0,212,255,1) 100%);
+}
+h2{
+    font-weight: normal;
+    padding: 13px;
+    margin: 0;
+    color: white;
+    background-color: #2980b9;
+    text-transform: uppercase;
+}
+input{
+    width: 100%;
+    border:2px solid #f7f7f7;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+    padding: 13px 13px 13px 20px;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+    font-size: 14px;
+}
+input:focus{
+    border-color: #2980b9;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+span{
+    background: red;
+    color: white;
+    display: inline-block;
+    width:0;
+    text-align: center;
+    margin-right: 10px;
+    height: 40px;
+    transition: all 500ms;
+    opacity: 0;
+}
+li:hover span{
+    width: 40px;
+    opacity: 1;
+}
+li{
+
+    line-height: 40px;
+    color: #666;
+    height: 40px;
+    margin: 0;
+}
+li:nth-of-type(2n){
+    background-color:#f7f7f7;
+}
